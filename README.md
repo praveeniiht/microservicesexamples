@@ -14,4 +14,12 @@ Step - 5: Once all the services are up and running you can check it from eureka 
 
 http://localhost:8761
 
+Step - 6: once the gateway is started, you can call the services through the gateway only.
+
+eg> http://localhost:8761/note-service/notes/all
+    http://localhost:8761/comment-service/comments/all
+    
+ You can check the controller class for each service for exact rest end point to call.
+ 
+ 
 
